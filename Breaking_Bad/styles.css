@@ -1,0 +1,10 @@
+body { background-image: url("../img/bb-backdrop.jpg");
+	     margin-bottom: 0px;
+       background-position: 0% 25%;
+       background-size: cover;
+       background-repeat: no-repeat;
+}
+
+h1 {color: #fff;}
+h2 {color: #fff;}
+
