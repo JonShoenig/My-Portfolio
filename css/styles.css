@@ -50,7 +50,7 @@ nav ul {float:right;}
 
 .opening-image {background-size: cover;}
 
-.opening-image p {font-size: 2.95em; color:#fff; text-align: center; position: relative; bottom: 1000px; display: block; font-weight: 900; font-family: Courier; sans-serif;}
+.opening-image p {font-size: 2.95em; color: #fff; text-align: center; position: relative; bottom: 1000px; display: block; font-weight: 900; font-family: Courier; sans-serif;}
 
 /*About page*/
 
@@ -102,7 +102,7 @@ nav ul {float:right;}
 
 #visible-comment {font-size: 2.5em; color: #f00; text-transform: uppercase; font-weight: 500; padding: 20px 0;}
 
-#map {width: 100%; height: 300px;}
+#map {width: 300px; height: 300px}
 
 /*Work page*/
 
