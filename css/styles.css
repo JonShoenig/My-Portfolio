@@ -50,13 +50,11 @@ nav ul {float:right;}
 
 .opening-image {background-size: cover;}
 
-.opening-image p {font-size: 2.95em; color: #fff; text-align: center; position: relative; bottom: 1000px; display: block; font-weight: 900; font-family: Courier; sans-serif;}
+.opening-image p {width: 100%; margin: 0 auto; font-size: 2.9em; color: #fff; text-align: center; display: block; font-weight: 900; font-family: Courier; sans-serif; position: absolute; top: 50px;}
 
 /*About page*/
 
-#about {margin-bottom: 10px;}
-
-.header-about h1 {font-family: 'Roboto', 'Oswald', 'Montserrat', 'Indie+Flower', Futura, Helvetica, Arial, sans-serif; text-align: center; margin-bottom: 40px; padding-top: 25px;}
+.header-about h1 {font-family: 'Roboto', 'Oswald', 'Montserrat', 'Indie+Flower', Futura, Helvetica, Arial, sans-serif; text-align: center; padding-bottom: 40px;}
 
 .image-column img {width: 100%;}
 
@@ -70,29 +68,29 @@ nav ul {float:right;}
 
 .skills-column li {font-size: 1.5em;}
 
-.contact-main-text {padding-top: 60px; padding-bottom: 150px;}
+.contact-main-text {padding: 20px 0;}
 
-.contact-main-text h3 {padding-bottom: 50px; font-size:2em; text-align: center;}
+.contact-main-text h3 {padding-bottom: 20px; font-size:2em; text-align: center;}
 
 .contact-main-text p {padding: 10px 0; font-size: 2em;}
 
 /*Contact Page*/
 
-#contact {background-image: url("../img/abstractsky.jpg"); background-attachment: fixed; background-size: cover; color: #fff; text-align: center; padding: 50px 100px 200px;} 
+#contact {background-image: url("../img/abstractsky.jpg"); background-attachment: fixed; background-size: cover; color: #fff; text-align: center; padding: 50px 100px;} 
 
-.intro-text {padding-top: 20px; font-size: 2em; font-family: Avant Garde, Century Gothic, Candara, sans-serif;}
-
-.header h1 {margin-top: 25px; font-size: 4em; font-family: 'Roboto', 'Oswald', 'Montserrat', 'Indie+Flower';}
+.header h1 {padding: 5px 0 20px; font-size: 4em; font-family: 'Roboto', 'Oswald', 'Montserrat', 'Indie+Flower';}
 
 /*Carousel*/
 
-.pic img {margin: 0 auto; width: 50%;}
+.pic img {margin: 0 auto; width: 62%;}
 
 .carousel-control {opacity: 0; width: 10%;}
 
 /*Back to Contact*/
 
-.contact {padding-bottom: 25px; padding-top: 5px; width:275px; margin:0 auto; text-align: left;}
+.intro-text {padding-top: 20px; font-size: 2em; font-family: Avant Garde, Century Gothic, Candara, sans-serif;}
+
+.contact {padding-bottom: 25px; padding-top: 5px; width: 275px; margin: 0 auto; text-align: left;}
 
 .contact li {padding: 3px; font-family: Avant Garde, Century Gothic, Candara, sans-serif; font-size: 1.1em;}
 
@@ -102,7 +100,7 @@ nav ul {float:right;}
 
 #visible-comment {font-size: 2.5em; color: #f00; text-transform: uppercase; font-weight: 500; padding: 20px 0;}
 
-#map {width: 300px; height: 300px}
+#map {width: 80%; height: 250px; display: inline-block;}
 
 /*Work page*/
 
@@ -112,15 +110,15 @@ nav ul {float:right;}
 
 .header-work h2 {color: #34495e; text-align: left; padding-left: 25px; font-size: 3em;}
 
-#work {padding-top: 50px}
+#work {padding-top: 20px}
 
 #row1 {margin: 10px 0;}
 
-#row2 {padding-bottom: 150px; margin: 10px 0;}
+#row2 {padding-bottom: 75px; margin: 10px 0;}
 
 .work-img {display: block; margin: auto; max-width: 410px; position: relative;}
 
-.info {display: none; position: absolute; top: 10%; left: 22%; color: #f00; font-family: Futura; text-align: uppercase, center; font-weight: 900; letter-spacing: 0.5em; line-height: 1.6; font-size: 1.15em}
+.info {display: none; position: absolute; top: 10%; left: 22%; color: #f00; font-family: Futura; text-align: uppercase, center; font-weight: 900; letter-spacing: 0.5em; line-height: 1.6; font-size: 1em}
 
 .proj-title {font-weight: 500;}
 
@@ -134,11 +132,11 @@ nav ul {float:right;}
 
 #faq h1, h2 {font-family: Century Gothic; text-align: center; color: #fff;}
 
-#faq h2 {font-size: 2.25em; float: left; display: inline-block; padding-left: 100px; font-weight: 550;}
+#faq h2 {font-size: 2.1em; display: inline-block; font-weight: 550;}
 
 /*Modal*/
 
-.modal-button {float: right; padding: 50px 80px 0 0; display: inline-block;}
+.modal-button {float: right; padding: 20px 80px 0 0; display: inline-block;}
 
 #modalembed {height:500px; width:100%; padding: 20px;}
 
@@ -146,13 +144,13 @@ nav ul {float:right;}
 
 /*Accordian*/
 
-.panel-title {font-weight:900; font-size:2em; font-family: Courier;}
+.panel-title {font-weight:900; font-size: 1.6em; font-family: Courier; padding: 0 10px;}
 
 .panel-default {color:#000; background-color: #fffeea;}
 
 .accordian-heading {background-color: #18E8DC;}
 
-.panel-body p, li {font-size: 1.5em; font-family: Courier;}
+.panel-body p, li {font-size: 1.4em; font-family: Courier;}
 
 .panel-body li {text-align: left;}
 

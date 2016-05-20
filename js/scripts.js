@@ -64,7 +64,7 @@ $(document).ready(function(){
 	//Work section
 	//Row 1
 	for(var i = 0; i < works.length; ++i) {$("#row1").append("\
-		<div class='col-lg-3 col-md-3 col-xs-6'>\
+		<div class='col-lg-3 col-md-3 col-sm-6 col-xs-6'>\
 			<a href="+ works[i].URL +" class='work-img'>\
 				<img class='img-responsive' src='"+ works[i].pic + "'>\
 				<span class='info'><p class='proj-title'>Title:</p>"+ works[i].title + "</span>\
@@ -85,7 +85,7 @@ $(document).ready(function(){
 	};
 	//Row 2
 	for(var i = 0; i < apps.length; ++i) {$("#row2").append("\
-		<div class='col-lg-3 col-md-3 col-xs-6'>\
+		<div class='col-lg-3 col-md-3 col-sm-6 col-xs-6'>\
 			<a href="+ apps[i].URL +" class='work-img'>\
 				<img class='img-responsive' src='"+ apps[i].pic + "'>\
 				<span class='info'><p class='proj-title'>Title:</p>"+ apps[i].title + "</span>\
