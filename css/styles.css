@@ -2,7 +2,7 @@
 
 * {box-sizing: border-box;}
 
-body {margin: 0px; padding: 0px; position: relative; background-color: #fffeea; color: #34495e;}
+body {margin: 0px; padding: 0px; background-color: #fffeea; color: #34495e;}
 
 .container-fluid {padding-right: 0; padding-left: 0;}
 
@@ -48,9 +48,9 @@ nav ul {float:right;}
 
 /*Opening picture*/
 
-.opening-image {background-size: cover;}
+#opening-image {background-size: cover; background-attachment: fixed; max-width: 100%;}
 
-.opening-image p {width: 100%; margin: 0 auto; font-size: 2.9em; color: #fff; text-align: center; display: block; font-weight: 900; font-family: Courier; sans-serif; position: absolute; top: 50px;}
+#opening-image p {font-size: 2.9em; color: #fff; display: block; font-weight: 900; font-family: Courier; sans-serif; position: absolute; top: 50px; text-align: center; width: 100%; margin: 0 auto;}
 
 /*About page*/
 
@@ -58,9 +58,7 @@ nav ul {float:right;}
 
 .image-column img {width: 100%;}
 
-.intro-column h2 {font-family: 'Roboto', 'Oswald', 'Montserrat', 'Indie+Flower', Futura, Helvetica, Arial, sans-serif;}
-
-.intro-column p {font-family: Futura, Helvetica, Arial, sans-serif; font-size: 3em; font-weight: 100; -webkit-margin-before: 0;}
+.intro-column p {padding: 25px 0; font-family: Futura, Helvetica, Arial, sans-serif; font-size: 3em; font-weight: 100; -webkit-margin-before: 0;}
 
 .skills-column {background-color: #5AD4C2; color: #FFF; padding: 5px 35px;}
 
@@ -68,7 +66,7 @@ nav ul {float:right;}
 
 .skills-column li {font-size: 1.5em;}
 
-.contact-main-text {padding: 20px 0;}
+.contact-main-text {padding: 30px 0;}
 
 .contact-main-text h3 {padding-bottom: 20px; font-size:2em; text-align: center;}
 
@@ -76,7 +74,7 @@ nav ul {float:right;}
 
 /*Contact Page*/
 
-#contact {background-image: url("../img/abstractsky.jpg"); background-attachment: fixed; background-size: cover; color: #fff; text-align: center; padding: 50px 100px;} 
+#contact {background-image: url("../img/abstractsky.jpg"); background-attachment: fixed; background-size: cover ; color: #fff; text-align: center; padding: 50px 100px; max-width: 100%;} 
 
 .header h1 {padding: 5px 0 20px; font-size: 4em; font-family: 'Roboto', 'Oswald', 'Montserrat', 'Indie+Flower';}
 
@@ -118,7 +116,7 @@ nav ul {float:right;}
 
 .work-img {display: block; margin: auto; max-width: 410px; position: relative;}
 
-.info {display: none; position: absolute; top: 10%; left: 22%; color: #f00; font-family: Futura; text-align: uppercase, center; font-weight: 900; letter-spacing: 0.5em; line-height: 1.6; font-size: 1em}
+.info {display: none; position: absolute; top: 10%; left: 20%; color: #f00; font-family: Futura; text-align: uppercase, center; font-weight: 900; letter-spacing: 0.5em; line-height: 150%; font-size: 100%; width: 80%; padding-right: 10px; z-index: 1;}
 
 .proj-title {font-weight: 500;}
 
@@ -128,7 +126,7 @@ nav ul {float:right;}
 
 /*FAQ page*/
 
-#faq {background-image: url("../img/sky-night-stars-large.jpg"); background-size: cover; width: 100%; text-align: center; color:#fff; padding: 100px; padding-top: 50px;}
+#faq {background-image: url("../img/sky-night-stars-large.jpg"); background-size: cover; max-width: 100%; text-align: center; color:#fff; padding: 100px; padding-top: 50px;}
 
 #faq h1, h2 {font-family: Century Gothic; text-align: center; color: #fff;}
 
