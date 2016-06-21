@@ -32,22 +32,22 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-              <div class="Homepage navbar-brand" id="home"><a href="#">Jon Shoenig</a>
+              <div class="Homepage navbar-brand" id="home"><a href="#" aria-label="Jon Shoenig">Jon Shoenig</a>
               </div> <!--end Homepage--> 
             </div> <!--end navbar-header-->  
             <div class="navbar-collapse collapse">
               <ul class="nav navbar-nav navbar-right", id="navbar-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about" aria-label="About">About</a></li>
+                <li><a href="#contact" aria-label="Contact">Contact</a></li>
                 <li>
                   <div class="dropdown">
-                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Work<span class="caret"></span></button>
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" aria-label="Work">Work<span class="caret"></span></button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#videos">Videos</a></li>
-                    <li><a href="#web-apps">Web Applications</a></li>
+                    <li><a href="#videos" aria-label="Videos">Videos</a></li>
+                    <li><a href="#web-apps"aria-label="Web Appliations">Web Applications</a></li>
                   </ul>
                 </div> <!--end dropdown-->
-                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#faq" aria-label="FAQ">FAQ</a></li>
             </ul>
           </div> <!--end nav collapse-->
         </div> <!--end nav container-->
@@ -69,7 +69,7 @@
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <div class="image-column">
-            <img src="img/IMG_2042.png" alt="picture of Jon Shoenig standing in front of aquarium" class="img-responsive">
+            <img src="img/IMG_2042.png" alt="Jon Shoenig standing in front of aquarium" class="img-responsive">
            </div> 
           </div> <!--end column-->
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -99,7 +99,7 @@
               <h3>More About Me</h3>
               <p>Jon Shoenig is a Web Developer and Video Editor in the Washington DC area.</p>
               <p>Self-taught as a video editor since 2007, Jon has created beautiful montages uploaded to youtube and vimeo.  His precise use of music, rhythm, and timing led to professional projects for individuals and a US government agency.</p> 
-              <p>Recently, Jon became a web developer by completing an intensive web development training.  He is interested in freelance projects, or a full-time Junior Developer position.  As someone with a strong visual sense, he is especially interested in writing code for front-end development.</p> 
+              <p>Recently, Jon became a web developer by completing an intensive web development training.  He is interested in utilizing these new skills through freelance projects, or a full-time position.  As someone with a strong visual sense, he is especially interested in writing code for front-end development.</p> 
             </div> <!--end main-text--> 
           </div> <!--end row-->
         </div> <!--end column-->
@@ -131,13 +131,13 @@
                   </div> <!--end carousel caption-->
                 </div> <!--end item active-->
                 <div class="item">
-                  <img src="img/cool-computer.jpg" alt="head with active brain activity">
+                  <img src="img/cool-computer.jpg" alt="colorful computer keyboard">
                   <div class="carousel-caption"><p></p>...
                   </div> <!--end carousel caption-->
                 </div> <!--end item 2-->
                 
                 <div class="item">
-                  <img src="img/lights3.jpg" alt="head with active brain activity">
+                  <img src="img/lights3.jpg" alt="colorful lights in a swirl pattern">
                   <div class="carousel-caption"><p></p>...
                   </div> <!--end carousel caption-->
                 </div> <!--end item 3-->
@@ -155,7 +155,7 @@
             </div> <!--end carousel example generic-->
           </div> <!--end carousel pic--> 
           <div class="intro-text">
-            <p>Contact me for a free consultation on how I can turn your vision into a beautiful webpage</p>
+            <p>Contact me for a free consultation on how I can turn your vision into a beautiful webpage or video</p>
           </div><!--end intro text-->
           <div class="row">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
@@ -175,7 +175,7 @@
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
               <form>
                 <div class="form-group">
-                  <label for="name">Your Name</label>
+                  <label for="name">Your Name*</label>
                   <input type="text" id="name" class="form-control" type=text minlength=4 placeholder="Your name">
                   </input>
                   <label for="phone">Phone Number (optional)</label>
@@ -183,12 +183,11 @@
                   <label for="email">Your Email address*</label>
                   <input type="email" id="email" class="form-control" required="required" placeholder="Your email address">
                   </input>
-                  <label for="label">Your message*</label>
-                  <textarea style="resize:none" cols="40" rows="5" class="form-control" required="required" class="message-box" minlength=10 id="message" placeholder="Your message">
-                  </textarea>
+                  <label for="message">Your message</label>
+                  <textarea style="resize:none" cols="40"rows="5" class="form-control" required="required" class="message-box" minlength=10 id="message"></textarea>
                   <p id="visible-comment"></p>
-                  <p id="char-count"></p>  
-                  <button type="submit" id="submit" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Send me a message!">Submit
+                  <p hidden id="char-count"></p>  
+                  <button type="submit" id="submit" value="submit" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Send me a message!">Submit
                   </button>
                 </div> <!--end form-group--> 
               </form>
@@ -231,7 +230,7 @@
                       <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
                         </button> 
-                        <h4 class="modal-title" id="myModalLabel">My Resume</h4>
+                        <h4 class="modal-title" id="myModalLabel" aria-label="My Resume">My Resume</h4>
                       </div> <!--end modal header-->
                       <div class="modal-body">
                         <embed id="modalembed" src="img/Jon Shoenig-resume.pdf">
