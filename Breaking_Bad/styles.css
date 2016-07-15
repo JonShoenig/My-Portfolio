@@ -1,6 +1,6 @@
 body { background-image: url("../img/bb-backdrop.jpg");
 	     margin-bottom: 0px;
-       background-position: 0% 25%;
+       background-position: 0% 100%;
        background-size: cover;
        background-repeat: no-repeat;
        width: 100%;
@@ -45,6 +45,19 @@ li a:hover {color: #f00;}
 	padding: 0 0 50px 0;
 }
 
-h1 {color: #fff; position: relative; left: 100px;}
-h2 {color: #fff; position: relative; left: 100px;}
+.intro {
+	color: #fff; 
+	position: relative; 
+	margin: 0 auto;
+	width: 100%;
+	left: 170px;
+}
 
+#Waltmoney {
+	margin-left: 100px;
+	width: 50%;
+}
+
+#music {margin: 0 auto; width: 60%;}
+
+#music p {margin: 0 auto; width: 85%;}
